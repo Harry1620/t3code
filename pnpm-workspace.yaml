@@ -25,7 +25,6 @@ allowBuilds:
   objc-js: false
   "react-native-enriched-markdown@file:apps/mobile/deps/react-native-enriched-markdown-1.2.0-t3.16-29ddd424.tgz": true
   sharp: true
-  "@tsc-rs/typescript": true
   utf-8-validate: false
   workerd: false
 
@@ -79,7 +78,6 @@ catalog:
   react-dom: 19.3.0
   tailwindcss: 4.3.3
   tldts: 7.4.2
-  typescript: npm:@tsc-rs/typescript@0.8.0
   undici: 8.11.2
   vite: npm:@voidzero-dev/vite-plus-core@1.4.0
   vite-plus: 1.4.0
@@ -118,7 +116,8 @@ minimumReleaseAgeExclude:
   - "@distilled.cloud/core@1.0.0-rc.18"
   - "@distilled.cloud/iceberg@1.0.0-rc.18"
   - "@distilled.cloud/planetscale@1.0.0-rc.18"
-  - "@tsc-rs/*"
+  - "@effect/tsgo"
+  - "@effect/tsgo-*"
   - expo-glass-effect@58.0.4
   - expo-blur@58.0.4
   - expo-audio@58.0.9
